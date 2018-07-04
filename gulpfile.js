@@ -27,7 +27,7 @@ gulp.task('serve', function () {
             browserSync.init({
                 server: {
                     baseDir: SRC_FOLDER,
-                    index: 'dev.html'
+                    index: 'index.html'
                 }
             });
             // listen for changes in the following file types

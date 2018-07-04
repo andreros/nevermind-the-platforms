@@ -7,11 +7,11 @@
     <img src="https://raw.githubusercontent.com/andreros/nevermind-the-platforms/master/src/assets/img/nevermind-the-platforms.png" width="600">
 </p>
 
-"Nevermind The Platforms" is a 2D platform game where the player has to collect prizes while listening to one of the greatest albums of all time: Nirvana's Nevermind, in all its 8-bit glory!
+"[Nevermind The Platforms](https://andreros.github.io/nevermind-the-platforms/)" is a 2D platform game where the player has to collect prizes while listening to one of the greatest albums of all time: Nirvana's Nevermind, in all its 8-bit glory!
 
-## PLAY
+## Play
 
-Collect all the guitars to LEVEL UP! Beware of the BOMBS!
+Collect all the guitars to LEVEL UP! Beware of the BOMBS! Listen to one of the greatest albums of all times in between!
 
 [https://andreros.github.io/nevermind-the-platforms/](https://andreros.github.io/nevermind-the-platforms/)
 
