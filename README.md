@@ -4,7 +4,7 @@
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/andreros/nevermind-the-platforms/src/assets/img/nevermind-the-platforms.png" width="600">
+    <img src="https://raw.githubusercontent.com/andreros/nevermind-the-platforms/master/src/assets/img/nevermind-the-platforms.png" width="600">
 </p>
 
 "Nevermind The Platforms" is a 2D platform game where the player has to collect prizes while listening to one of the greatest albums of all time: Nirvana's Nevermind, in all its 8-bit glory!
