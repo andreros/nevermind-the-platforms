@@ -9,6 +9,21 @@
 
 "Nevermind The Platforms" is a 2D platform game where the player has to collect prizes while listening to one of the greatest albums of all time: Nirvana's Nevermind, in all its 8-bit glory!
 
+## PLAY
+
+Collect all the guitars to LEVEL UP! Beware of the BOMBS!
+
+[https://andreros.github.io/nevermind-the-platforms/](https://andreros.github.io/nevermind-the-platforms/)
+
+### Game Controls
+
+| Key | Action |
+| --- | --- |
+| `Left Arrow` | Move the player to the left. |
+| `Right Arrow` | Move the player to the right. |
+| `Up Arrow` | Make the player jump. |
+
+
 ## Motivation
 
 This game was developed as a follow up to a tutorial exercise on how to implement a platform game with the Phaser 3 HTML5 Game Framework.
@@ -28,18 +43,10 @@ Please, read the [Node.js official installation guide](https://github.com/nodejs
 Clone or download this project. From the project directory run the command `npm install` to install all the necessary dependencies.
 
 
-## Running the Game
+## Running the Game Locally
 
 To run your game, from the game's directory run the command `npm start`. A browser window will open and the game will be automatically
 started.
-
-## Game Controls
-
-| Key | Action |
-| --- | --- |
-| `Left Arrow` | Move the player to the left. |
-| `Right Arrow` | Move the player to the right. |
-| `Up Arrow` | Make the player jump. |
 
 
 ## Built With
