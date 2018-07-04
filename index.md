@@ -1,2 +1,2 @@
-<script src="node_modules/phaser/dist/phaser.min.js"></script>
-<script src="src/js/index.js"></script>
+<script src="https://raw.githubusercontent.com/andreros/nevermind-the-platforms/master/src/js/phaser.min.js"></script>
+<script src="https://raw.githubusercontent.com/andreros/nevermind-the-platforms/master/src/js/index.js"></script>
