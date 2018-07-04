@@ -1,0 +1,35 @@
+{
+    "name": "nevermind-the-platforms",
+    "version": "1.0.0",
+    "description": "Nevermind The Platforms is a 2D platform game where the player has to collect prizes while listening to one of the greatest albums of all time: Nirvana's Nevermind, in all its 8-bit glory!",
+    "main": "index.html",
+    "scripts": {
+        "start": "gulp default",
+        "serve": "gulp serve"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/andreros/nevermind-the-platforms"
+    },
+    "homepage": "https://github.com/andreros/nevermind-the-platforms#readme",
+    "keywords": [
+        "phaser",
+        "phaser3",
+        "game",
+        "platforms",
+        "nirvana",
+        "nevermind",
+        "8bit",
+        "8-bit"
+    ],
+    "dependencies": {
+        "phaser": "^3.10.1"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.24.5",
+        "gulp": "^3.9.1"
+    },
+    "author": "André Rosa <andreros@gmail.com>",
+    "contributors": [],
+    "license": "Unlicense"
+}
