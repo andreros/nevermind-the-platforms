@@ -1,4 +1,10 @@
 /**
+ * file index.js
+ * description Nevermind the platforms game implementation main file
+ * author Andre Rosa <andreros@gmail.com>
+ */
+
+/**
  * {Object} common.
  * Object responsible for encapsulating the game's generic operations.
  */
@@ -128,14 +134,36 @@ var common = {
      * Function responsible for calculating and returning the necessary score to pass each level.
      */
     getGameDifficulty: function() {
-        var scoreDifficulty = 0;
+        var goalScore = 0;
         switch (game.difficulty) {
+            case 3:
+            case 2:
+            case 1:
+                if (game.level >= 10 && game.level < 13) {
+                    // before scoring enough to complete the level:
+                    // three bombs in levels 10 to 12
+                    goalScore = (game.levelScoreGoal * game.level) + (game.levelScoreGoal * (game.level + 1));
+                }
+                if (game.level >= 7 && game.level < 10) {
+                    // before scoring enough to complete the level:
+                    // two bombs in levels 7 to 9
+                    goalScore = (game.levelScoreGoal * game.level) + (game.levelScoreGoal * game.level);
+                }
+                if (game.level < 7) {
+                    // before scoring enough to complete the level:
+                    // no bombs in level 1
+                    // one bomb in levels 2 to 6
+                    goalScore = (game.levelScoreGoal * game.level) + (game.levelScoreGoal * (game.level - 1));
+                }
+                break;
             case 0:
             default:
-                scoreDifficulty = game.levelScoreGoal * game.level;
+                // before scoring enough to complete the level:
+                // no bombs in any level
+                goalScore = game.levelScoreGoal * game.level;
             break;
         }
-        return scoreDifficulty;
+        return goalScore;
     },
 
     /**
@@ -178,6 +206,7 @@ var common = {
         game.player.setTint(0xff0000);
         game.player.anims.play('turn');
         game.gameOver = true;
+        common.scope.add.text(220, 280, 'Game Over!', { fontSize: '64px', fill: '#0F0' });
     },
 
     /**
@@ -823,7 +852,7 @@ var game = {
     bombs: undefined,
     platforms: undefined,
     cursors: undefined,
-    difficulty: 0,
+    difficulty: 1,
     score: 0,
     level: 1,
     levelScoreGoal: 240,
