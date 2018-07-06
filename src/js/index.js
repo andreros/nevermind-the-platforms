@@ -142,12 +142,12 @@ var common = {
                 if (game.level >= 10 && game.level < 13) {
                     // before scoring enough to complete the level:
                     // three bombs in levels 10 to 12
-                    goalScore = (game.levelScoreGoal * game.level) + (game.levelScoreGoal * (game.level + 1));
+                    goalScore = (game.levelScoreGoal * game.level) + (game.levelScoreGoal * (game.level + 2));
                 }
                 if (game.level >= 7 && game.level < 10) {
                     // before scoring enough to complete the level:
                     // two bombs in levels 7 to 9
-                    goalScore = (game.levelScoreGoal * game.level) + (game.levelScoreGoal * game.level);
+                    goalScore = (game.levelScoreGoal * game.level) + (game.levelScoreGoal * (game.level + 1));
                 }
                 if (game.level < 7) {
                     // before scoring enough to complete the level:
