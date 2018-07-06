@@ -84,7 +84,9 @@ var common = {
 
         //  The score and level
         game.scoreText = scope.add.text(16, 16, 'Score: ' + game.score, { fontSize: '32px', fill: '#0F0' });
-        game.levelText = scope.add.text(620, 16, 'Level: ' + game.level, { fontSize: '32px', fill: '#0F0' });
+        if (game.level < 13) {
+            game.levelText = scope.add.text(620, 16, 'Level: ' + game.level, { fontSize: '32px', fill: '#0F0' });
+        }
 
         //  Collide the player and the stars with the platforms
         scope.physics.add.collider(game.player, game.platforms);
