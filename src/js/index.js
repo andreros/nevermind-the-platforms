@@ -241,7 +241,7 @@ var level1 = {
     preload: function () {
         common.preload(this);
         this.load.image('background', 'src/assets/img/level1.jpg');
-        this.load.image('ground', 'src/assets/img/platform1.png');
+        this.load.image('ground', 'src/assets/img/platform2.png');
         this.load.audio('theme', ['src/assets/audio/themes/[Nirvana]01)Smells_like_teen_spirit.mp3']);
     },
 
@@ -388,7 +388,7 @@ var level4 = {
     preload: function () {
         common.preload(this);
         this.load.image('background', 'src/assets/img/level4.jpg');
-        this.load.image('ground', 'src/assets/img/platform.png');
+        this.load.image('ground', 'src/assets/img/platform1.png');
         this.load.audio('theme', ['src/assets/audio/themes/[Nirvana]04)Breed.mp3']);
     },
 
@@ -485,7 +485,7 @@ var level6 = {
     preload: function () {
         common.preload(this);
         this.load.image('background', 'src/assets/img/level6.jpg');
-        this.load.image('ground', 'src/assets/img/platform.png');
+        this.load.image('ground', 'src/assets/img/platform1.png');
         this.load.audio('theme', ['src/assets/audio/themes/[Nirvana]06)Polly.mp3']);
     },
 
@@ -535,7 +535,7 @@ var level7 = {
     preload: function () {
         common.preload(this);
         this.load.image('background', 'src/assets/img/level7.jpg');
-        this.load.image('ground', 'src/assets/img/platform.png');
+        this.load.image('ground', 'src/assets/img/platform2.png');
         this.load.audio('theme', ['src/assets/audio/themes/[Nirvana]07)Territorial_Pissings.mp3']);
     },
 
@@ -583,7 +583,7 @@ var level8 = {
     preload: function () {
         common.preload(this);
         this.load.image('background', 'src/assets/img/level8.jpg');
-        this.load.image('ground', 'src/assets/img/platform.png');
+        this.load.image('ground', 'src/assets/img/platform1.png');
         this.load.audio('theme', ['src/assets/audio/themes/[Nirvana]08)Drain_you.mp3']);
     },
 
@@ -632,7 +632,7 @@ var level9 = {
     preload: function () {
         common.preload(this);
         this.load.image('background', 'src/assets/img/level9.jpg');
-        this.load.image('ground', 'src/assets/img/platform.png');
+        this.load.image('ground', 'src/assets/img/platform1.png');
         this.load.audio('theme', ['src/assets/audio/themes/[Nirvana]09)Lounge_act.mp3']);
     },
 
@@ -779,7 +779,7 @@ var level12 = {
     preload: function () {
         common.preload(this);
         this.load.image('background', 'src/assets/img/level12.jpg');
-        this.load.image('ground', 'src/assets/img/platform.png');
+        this.load.image('ground', 'src/assets/img/platform1.png');
         this.load.audio('theme', ['src/assets/audio/themes/[Nirvana]12)Something_in_the_way.mp3']);
     },
 
