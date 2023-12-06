@@ -3,6 +3,8 @@
     "version": "1.0.0",
     "description": "Nevermind The Platforms is a 2D platform game where the player has to collect prizes while listening to one of the greatest albums of all time: Nirvana's Nevermind, in all its 8-bit glory!",
     "main": "index.html",
+    "author": "André Rosa <andreros@gmail.com>",
+    "license": "Unlicense",
     "scripts": {
         "start": "gulp default",
         "serve": "gulp serve"
@@ -22,14 +24,14 @@
         "8bit",
         "8-bit"
     ],
-    "dependencies": {
-        "phaser": "^3.10.1"
+    "overrides": {
+        "graceful-fs": "^4.2.11"
     },
     "devDependencies": {
-        "browser-sync": "^2.24.5",
+        "browser-sync": "^2.29.3",
         "gulp": "^3.9.1"
     },
-    "author": "André Rosa <andreros@gmail.com>",
-    "contributors": [],
-    "license": "Unlicense"
+    "dependencies": {
+        "phaser": "^3.70.0"
+    }
 }
