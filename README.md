@@ -17,17 +17,15 @@ Collect all the guitars to LEVEL UP! Beware of the BOMBS! Listen to one of the g
 
 ### Game Controls
 
-| Key | Action |
-| --- | --- |
-| `Left Arrow` | Move the player to the left. |
+| Key           | Action                        |
+| ------------- | ----------------------------- |
+| `Left Arrow`  | Move the player to the left.  |
 | `Right Arrow` | Move the player to the right. |
-| `Up Arrow` | Make the player jump. |
-
+| `Up Arrow`    | Make the player jump.         |
 
 ## Motivation
 
 This game was developed as a follow up to a tutorial exercise on how to implement a platform game with the Phaser 3 HTML5 Game Framework.
-
 
 ## Prerequisites
 
@@ -37,34 +35,16 @@ This game was developed as a follow up to a tutorial exercise on how to implemen
 
 Please, read the [Node.js official installation guide](https://github.com/nodejs/node/wiki/Installation).
 
-
 ## Installation
 
 Clone or download this project. From the project directory run the command `npm install` to install all the necessary dependencies.
-
 
 ## Running the Game Locally
 
 To run your game, from the game's directory run the command `npm start`. A browser window will open and the game will be automatically
 started.
 
-
 ## Built With
 
-*  Node.js: [https://nodejs.org/](https://nodejs.org/)
-*  Phaser 3: [http://phaser.io/](http://phaser.io/)
-
-## Author
-
-**André Rosa**
-
-* <https://bitbucket.org/candrelsrosa>
-* <https://github.com/andreros/>
-* <https://facebook.com/candrelsrosa>
-* <https://twitter.com/candrelsrosa>
-
-
-## License
-
-This is free and unencumbered software released into the [public domain](UNLICENSE.txt). For more information,
-please refer to [http://unlicense.org](http://unlicense.org).
+-   Node.js: [https://nodejs.org/](https://nodejs.org/)
+-   Phaser 3: [http://phaser.io/](http://phaser.io/)
